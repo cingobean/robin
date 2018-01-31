@@ -51,6 +51,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 
 $route['default_controller'] = 'front/front';
+$route['kontak'] = 'front/kontak';
 //$route['default_controller'] = 'auth';
 //$route['default_controller'] = 'login';
 $route['404_override'] = '';

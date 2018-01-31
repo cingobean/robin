@@ -63,6 +63,9 @@
 <script src="<?php echo base_url('assets/AdminLTE-2.0.5/plugins/iCheck/icheck.min.js') ?>" type="text/javascript"></script>
 <!--ckeditor.js -->
 <script src="<?php echo base_url('assets/AdminLTE-2.0.5/plugins/ckeditor/ckeditor.js') ?>" type="text/javascript"></script>
+<!-- Select2 -->
+<script src="<?php echo base_url('assets/AdminLTE-2.0.5/plugins/select2/dist/js/select2.full.min.js') ?>" type="text/javascript"></script>
+
 
 
 

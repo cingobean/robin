@@ -36,8 +36,8 @@ $this->load->view('template/sidebar');
                       <tr>
                         <th>Nama</th>
 						<th>Jenis Kelamin</th>
-                        <th>NIS</th>
-                        <th>NISN</th>
+                        <th>NIP</th>
+                        <th>Mata Pelajaran</th>
                         <th>Tempat</th>
                         <th>Tanggal Lahir</th>
 						<th>Action</th>
@@ -45,10 +45,10 @@ $this->load->view('template/sidebar');
                     </thead>
                     <tbody>
                       <tr>
-                        <td>Gaketa</td>
+                        <td>Rohamid Bambang Sulaeman, S.Pd.I</td>
 						<td>Laki-laki</td>
                         <td>1516.2.0001</td>
-                        <td>0007278120</td>
+                        <td>Pendidikan Agama dan Budi Pekerti</td>
                         <td>Tangerang</td>
                         <td>19 Pebruari 2000</td>
 						<td>
@@ -58,10 +58,10 @@ $this->load->view('template/sidebar');
                         </td>
 					  </tr>
 					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
+                        <td>Yetti Suharti, S.Pd</td>
+						<td>Perempuan</td>
                         <td>1516.2.0001</td>
-                        <td>0007278120</td>
+                        <td>Pendidikan Pancasila dan Kewarganegaraan</td>
                         <td>Tangerang</td>
                         <td>19 Pebruari 2000</td>
 						<td>
@@ -71,10 +71,10 @@ $this->load->view('template/sidebar');
                         </td>
 					  </tr>
 					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
+                        <td>Widaningsih, S.Pd</td>
+						<td>Perempuan</td>
                         <td>1516.2.0001</td>
-                        <td>0007278120</td>
+                        <td>Bahasa Indonesia</td>
                         <td>Tangerang</td>
                         <td>19 Pebruari 2000</td>
 						<td>
@@ -84,10 +84,10 @@ $this->load->view('template/sidebar');
                         </td>
 					  </tr>
 					  <tr>
-                        <td>Gaketa</td>
+                        <td>Ade Ferdiansyah, M.Pd</td>
 						<td>Laki-laki</td>
                         <td>1516.2.0001</td>
-                        <td>0007278120</td>
+                        <td>Matematika</td>
                         <td>Tangerang</td>
                         <td>19 Pebruari 2000</td>
 						<td>
@@ -97,10 +97,10 @@ $this->load->view('template/sidebar');
                         </td>
 					  </tr>
 					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
+                        <td>Eka Lestari, S.Pd</td>
+						<td>Perempuan</td>
                         <td>1516.2.0001</td>
-                        <td>0007278120</td>
+                        <td>Sejarah Indonesia</td>
                         <td>Tangerang</td>
                         <td>19 Pebruari 2000</td>
 						<td>
@@ -110,10 +110,10 @@ $this->load->view('template/sidebar');
                         </td>
 					  </tr>
 					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
+                        <td>Puji Supriyatun, S.Pd</td>
+						<td>Perempuan</td>
                         <td>1516.2.0001</td>
-                        <td>0007278120</td>
+                        <td>Bahasa Inggris</td>
                         <td>Tangerang</td>
                         <td>19 Pebruari 2000</td>
 						<td>
@@ -123,10 +123,10 @@ $this->load->view('template/sidebar');
                         </td>
 					  </tr>
 					  <tr>
-                        <td>Gaketa</td>
+                        <td>Nuraman, M.Si</td>
 						<td>Laki-laki</td>
                         <td>1516.2.0001</td>
-                        <td>0007278120</td>
+                        <td>Seni Budaya</td>
                         <td>Tangerang</td>
                         <td>19 Pebruari 2000</td>
 						<td>
@@ -136,10 +136,10 @@ $this->load->view('template/sidebar');
                         </td>
 					  </tr>
 					  <tr>
-                        <td>Gaketa</td>
+                        <td>Deni Nurfahmi, S.Pd</td>
 						<td>Laki-laki</td>
                         <td>1516.2.0001</td>
-                        <td>0007278120</td>
+                        <td>Pendidikan Jasmani, Olah Raga, dan Kesehatan</td>
                         <td>Tangerang</td>
                         <td>19 Pebruari 2000</td>
 						<td>
@@ -149,10 +149,10 @@ $this->load->view('template/sidebar');
                         </td>
 					  </tr>
 					  <tr>
-                        <td>Gaketa</td>
+                        <td>Moh. Syafe'i, S.Kom</td>
 						<td>Laki-laki</td>
                         <td>1516.2.0001</td>
-                        <td>0007278120</td>
+                        <td>Teknologi Infrakstruktur Jaringan</td>
                         <td>Tangerang</td>
                         <td>19 Pebruari 2000</td>
 						<td>
@@ -162,10 +162,10 @@ $this->load->view('template/sidebar');
                         </td>
 					  </tr>
 					  <tr>
-                        <td>Gaketa</td>
+                        <td>Akmal Munawar, S.Kom</td>
 						<td>Laki-laki</td>
                         <td>1516.2.0001</td>
-                        <td>0007278120</td>
+                        <td>Rancang Bangun Jaringan</td>
                         <td>Tangerang</td>
                         <td>19 Pebruari 2000</td>
 						<td>
@@ -175,10 +175,10 @@ $this->load->view('template/sidebar');
                         </td>
 					  </tr>
 					  <tr>
-                        <td>Gaketa</td>
+                        <td>Setia Adi Nugroho, S.Pd</td>
 						<td>Laki-laki</td>
                         <td>1516.2.0001</td>
-                        <td>0007278120</td>
+                        <td>Administrasi Server dan Keamanan Jaringan</td>
                         <td>Tangerang</td>
                         <td>19 Pebruari 2000</td>
 						<td>
@@ -188,10 +188,10 @@ $this->load->view('template/sidebar');
                         </td>
 					  </tr>
 					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
+                        <td>Susi. S.Kom</td>
+						<td>Perempuan</td>
                         <td>1516.2.0001</td>
-                        <td>0007278120</td>
+                        <td>Pengembangan Produk Kreatif</td>
                         <td>Tangerang</td>
                         <td>19 Pebruari 2000</td>
 						<td>
@@ -200,523 +200,13 @@ $this->load->view('template/sidebar');
 						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
                         </td>
 					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  <tr>
-                        <td>Gaketa</td>
-						<td>Laki-laki</td>
-                        <td>1516.2.0001</td>
-                        <td>0007278120</td>
-                        <td>Tangerang</td>
-                        <td>19 Pebruari 2000</td>
-						<td>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-success"><i class="glyphicon glyphicon-search"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></div></a>
-						<a href="<?php //echo site_url('content/contentedit/'.$val->id.''); ?>"><div class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></div></a>
-                        </td>
-					  </tr>
-					  
-					  
-                      
                     </tbody>
                     <tfoot>
                       <tr>
                         <th>Nama</th>
 						<th>Jenis Kelamin</th>
-                        <th>NIS</th>
-                        <th>NISN</th>
+                        <th>NIP</th>
+                        <th>Mata Pelajaran</th>
                         <th>Tempat</th>
                         <th>Tanggal Lahir</th>
 						<th>Action</th>

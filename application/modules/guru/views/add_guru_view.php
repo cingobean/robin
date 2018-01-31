@@ -38,13 +38,26 @@ $this->load->view('template/sidebar');
                       <input type="text" class="form-control" id="Nama" placeholder="Nama">
                     </div>
                     <div class="form-group">
-                      <label for="NIS">NIS :</label>
-                      <input type="number" class="form-control" id="NIS" placeholder="NIS">
+                      <label for="NIP">NIP :</label>
+                      <input type="number" class="form-control" id="NIP" placeholder="NIP">
                     </div>
 					<div class="form-group">
-                      <label for="NISN">NISN :</label>
-                      <input type="number" class="form-control" id="NISN" placeholder="NISN">
-                    </div>
+                <label>Mata Pelajaran</label>
+                <select class="form-control select2" multiple="multiple" data-placeholder="Mata Pelajaran"
+                        style="width: 100%;">
+                  <option>Pendidikan Agama dan Budi Pekerti</option>
+                  <option>Pendidikan Pancasila dan Kewarganegaraan</option>
+                  <option>Bahasa Indonesia</option>
+                  <option>Matematika</option>
+                  <option>Sejarah Indonesia</option>
+                  <option>Bahasa Inggris</option>
+                  <option>Pendidikan Jasmani, Olah Raga, dan Kesehatan</option>
+				  <option>Teknologi Infrakstruktur Jaringan</option>
+				  <option>Rancang Bangun Jaringan</option>
+				  <option>Administrasi Server dan Keamanan Jaringan</option>
+				  <option>Pengembangan Produk Kreatif</option>
+                </select>
+              </div>
 					<!-- radio -->
                   <div class="form-group">
 				    <label for="JenisKelamin">Jenis Kelamin : </label></br>
@@ -75,7 +88,7 @@ $this->load->view('template/sidebar');
                       <input type="file" id="exampleInputFile">
                       <p class="help-block">Example block-level help text here.</p>
                     </div>
- 
+
                   </div><!-- /.box-body -->
 
                   <div class="box-footer">
@@ -83,55 +96,55 @@ $this->load->view('template/sidebar');
                   </div>
                 </form>
               </div><!-- /.box -->
-			  
+
 			      <!-- Horizontal Form
           <div class="box box-primary">
             <div class="box-header with-border">
               <h3 class="box-title">Horizontal Form</h3>
             </div>
-            
+
             <form class="form-horizontal">
               <div class="box-body">
-			  
+
 				<div class="form-group">
                       <label for="Nama" class="col-sm-2 control-label">Nama :</label>
 					<div class="col-sm-10">
                       <input type="text" class="form-control" id="Nama" placeholder="Nama">
 					</div>
                 </div>
-				
+
                <div class="form-group">
                       <label for="NIS" class="col-sm-2 control-label">NIS :</label>
 					<div class="col-sm-10">
                       <input type="number" class="form-control" id="NIS" placeholder="NIS">
 					</div>
 			   </div>
-			   
+
 					<div class="form-group">
                       <label for="NISN" class="col-sm-2 control-label">NISN :</label>
 					  <div class="col-sm-10">
                       <input type="number" class="form-control" id="NISN" placeholder="NISN">
 					</div>
 					</div>
-                
+
               </div>
-              
+
               <div class="box-footer">
                 <button type="submit" class="btn btn-default">Cancel</button>
                 <button type="submit" class="btn btn-info ">Submit</button>
               </div>
-              <!-- /.box-footer 
+              <!-- /.box-footer
             </form>
           </div>
           box -->
-		  
+
             </div><!-- /.col (right) -->
           </div><!-- /.row -->
-        </section><!-- /.content -->		
-       
+        </section><!-- /.content -->
 
 
-	  
+
+
 <?php
 $this->load->view('template/js');
 ?>
@@ -140,6 +153,7 @@ $this->load->view('template/js');
     <script type="text/javascript">
       $(function () {
         //Datemask dd/mm/yyyy
+		$('.select2').select2();
         $("#datemask").inputmask("dd/mm/yyyy", {"placeholder": "dd/mm/yyyy"});
         //Datemask2 mm/dd/yyyy
         $("#datemask2").inputmask("mm/dd/yyyy", {"placeholder": "mm/dd/yyyy"});
@@ -194,7 +208,7 @@ $this->load->view('template/js');
         $(".timepicker").timepicker({
           showInputs: false
         });
-		
+
 		//datepicker
 		$("#datepicker").datepicker({
         autoclose: true,
@@ -202,7 +216,7 @@ $this->load->view('template/js');
         todayHighlight: true,
         orientation: "top auto",
         todayBtn: true,
-        todayHighlight: true, 
+        todayHighlight: true,
 		});
 	});
     </script>
@@ -210,4 +224,3 @@ $this->load->view('template/js');
 <?php
 $this->load->view('template/foot');
 ?>
-	

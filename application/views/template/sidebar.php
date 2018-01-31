@@ -25,15 +25,15 @@
         <!-- sidebar menu: : style can be found in sidebar.less -->
         <ul class="sidebar-menu">
             <li class="header">MAIN NAVIGATION</li>
-            <!--li class="treeview">
+            <li class="treeview">
                 <a href="#">
                     <i class="fa fa-dashboard"></i> <span>Dashboard</span> <i class="fa fa-angle-left pull-right"></i>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="<?php //echo site_url('dashboard1') ?>"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-                    <li><a href="<?php //echo site_url('dashboard2') ?>"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
+                    <li><a href="<?php echo site_url('dashboard1') ?>"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
+                    <li><a href="<?php echo site_url('dashboard2') ?>"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
                 </ul>
-            </li-->     
+            </li>     
             <li class="treeview">
                 <a href="#">
                     <i class="fa fa-edit"></i> <span>Forms</span>
@@ -43,7 +43,7 @@
 					<li><a href="<?php echo site_url('generalform') ?>"><i class="fa fa-circle-o"></i> GeneralElements</a></li>
 					<li><a href="<?php echo site_url('advancedform') ?>"><i class="fa fa-circle-o"></i> AdvancedElements</a></li>
 					<li><a href="<?php echo site_url('book/bookadd') ?>"><i class="fa fa-circle-o"></i>Add Book</a></li>
-					<!--li><a href="<?php //echo site_url('content/content_add') ?>"><i class="fa fa-circle-o"></i>Add Content</a></li-->
+					<li><a href="<?php echo site_url('content/content_add') ?>"><i class="fa fa-circle-o"></i>Add Content</a></li>
 					<li><a href="<?php echo site_url('siswa/siswa_add') ?>"><i class="fa fa-circle-o"></i>Add Student</a></li>
 					<!-- <li><a href="<?php //echo site_url('barang/form/add') ?>"><i class="fa fa-circle-o"></i>Tambah Barang</a></li> -->
                     <!--li><a href="#"><i class="fa fa-circle-o"></i> Advanced Elements</a></li>
@@ -61,7 +61,7 @@
 				<!--li><a href="<?php //echo site_url('datatables') ?>"><i class="fa fa-circle-o"></i> Datatables</a></li-->
 				<!---li><a href="<?php //echo site_url('buku') ?>"><i class="fa fa-circle-o"></i>Data Buku</a></li-->	
 				<!-- <li><a href="<?php //echo site_url('book') ?>"><i class="fa fa-circle-o"></i> Book Data</a></li> -->
-				<!--li><a href="<?php //echo site_url('content') ?>"><i class="fa fa-circle-o"></i>Content</a></li-->
+				<li><a href="<?php echo site_url('content') ?>"><i class="fa fa-circle-o"></i>Content</a></li>
 				<li><a href="<?php echo site_url('siswa') ?>"><i class="fa fa-circle-o"></i>Student</a></li>
 				<!-- <li><a href="<?php //echo site_url('barang') ?>"><i class="fa fa-circle-o"></i>Barang</a></li>		 -->
                 </ul>

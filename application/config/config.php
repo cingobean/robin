@@ -18,7 +18,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 $config['base_url'] = '';
-$config['encryption_key'] = 'tutoriallogincodeigniterwwwmalasngodingcom';
+$config['encryption_key'] = 'smkn2kabupatentangerang';
 
 /*
 |--------------------------------------------------------------------------

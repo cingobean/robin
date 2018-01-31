@@ -39,6 +39,9 @@
 		<link href="<?php echo base_url('assets/AdminLTE-2.0.5/plugins/daterangepicker/daterangepicker-bs3.css') ?>" rel="stylesheet" type="text/css" />
 		<!-- bootstrap wysihtml5 - text editor -->
 		<link href="<?php echo base_url('assets/AdminLTE-2.0.5/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css') ?>" rel="stylesheet" type="text/css" />
+		<!-- Select2 -->
+		<link href="<?php echo base_url('assets/AdminLTE-2.0.5/plugins/select2/dist/css/select2.min.css') ?>" rel="stylesheet" type="text/css" />
+		
 		
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
